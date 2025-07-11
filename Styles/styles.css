@@ -22,13 +22,12 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transform: scale(1);
+    transition: all 0.3s ease-in-out;
   }
   .primary-btn:hover{
     background-color: #f65252;
     color: #FFFFFF;
     transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
   }
 .section-title{
     font-size: 42px;
@@ -52,7 +51,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 90px;
+    max-width: 1140px;
+    margin: 0 auto;
     padding: 25px 0px;
   }
   .logo{
@@ -200,4 +200,64 @@ body{
     font-size: 15px;
     color: rgba(179, 179, 179, 1);
     margin: 0px;
+}
+
+/* contact form style */
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 100px;
+  }
+.form-header h2{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 1);
+}
+.form-info {
+    flex: 1;
+    min-width: 500px;
+}
+.form-info label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+section input[type="email"], section input[type="text"], section textarea {
+    width: 100%;
+    padding: 16px 25px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+section textarea {
+    height: 140px;
+    resize: none;
+}
+section button {
+    width: 100%;
+    height: 60px;
+    background-color: #4e47ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+section button:hover {
+    background-color: #f65252;
+    transform: scale(1.05);
 }
