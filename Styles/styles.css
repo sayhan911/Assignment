@@ -202,6 +202,33 @@ body{
     margin: 0px;
 }
 
+/* offer section style */
+
+.offer-section{
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  text-align: center;
+  width: 100%;
+}
+.offer-section h3{
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.offer-section p{
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
+.offer-section img{
+  width: 840px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 70px;
+  border-radius: 48px;
+}
 /* contact form style */
 .contact-form {
     display: flex;
@@ -211,7 +238,7 @@ body{
     max-width: 1140px;
     margin: 0 auto;
     width: 100%;
-    padding: 80px 0;
+    padding-bottom: 80px;
   }
 .form-header h2{
     font-size: 97px;
@@ -237,7 +264,7 @@ section input[type="email"], section input[type="text"], section textarea {
     font-size: 18px;
     font-family: "Inter", sans-serif;
     font-weight: normal;
-    color: rgba(0, 0, 0, 0.5);
+    color: #252432;
     border: 1px solid rgba(214, 221, 237, 1);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -267,7 +294,7 @@ section textarea {
 footer{
     text-align: center;
     background-color: #FFFFFF;
-    padding: 20px 0 50px;
+    padding: 50px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .footer-content{
