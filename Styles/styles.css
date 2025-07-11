@@ -5,6 +5,11 @@
     font-style: normal;
   }
   
+.inter-specific {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 
   /* common styles */
 
@@ -101,4 +106,34 @@
   .live-preview-image{
     width: 403;
     border-radius: 48px;
+  }
+
+  /* showcase styles */
+  .showcase{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 142px;
+  }
+  .showcase h3{
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 auto 40px;
+  }
+  .showcase-stats{
+    display: flex;
+    justify-content: space-between;
+  }
+  .stat-items h4{
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(78, 71, 255, 1);
+    margin: 0 auto;
+  }
+  .stat-items p{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
   }
